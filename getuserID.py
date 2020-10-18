@@ -1,7 +1,7 @@
 import base64, requests, sys
 import pprint
 
-# Request oauth token  referene: https://developer.inindca.com/api/tutorials/oauth-client-credentials/?language=python&step=1
+# Request oauth token  reference: https://developer.inindca.com/api/tutorials/oauth-client-credentials/?language=python&step=1
 client_id = "XXXXXXXXXXX"  
 client_secret = "XXXXXXXXXXXXXXXXX"  
 
