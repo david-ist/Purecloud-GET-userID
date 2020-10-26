@@ -60,7 +60,10 @@ if response.status_code >= 200 and  response.status_code <= 299:
     jsonresult=response.json()
     result = jsonresult['results']
     r2 = result[0]
-    userid = list(r2.values())[0]
+    # Get the value for id in the dicitionary created in r2
+    userid = r2['id']
+    # Creates a list from the result dictionary
+    #userid = list(r2.values())[0]
 else:
     print(response.status_code)
 
