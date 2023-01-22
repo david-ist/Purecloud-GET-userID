@@ -1,2 +1,2 @@
 # Purecloud-GET-userID
-Small example script to get userID and token using Genesys Cloud (Purecloud) API and Python.
+Example script on how to create authentication token with Genesys Cloud environment and with that retrieve UserID.
